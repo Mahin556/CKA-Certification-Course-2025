@@ -1,4 +1,4 @@
-# Day 59: Kubernetes JSONPath with kubectl| CKA 2025
+# Day 59: Kubernetes JSONPath with kubectl | CKA 2025
 
 ## Video reference for Day 59 is the following:
 
