@@ -22,7 +22,6 @@ If this **repository** helps you, give it a ⭐ to show your support and help ot
   * [Core operators (you’ll use these 90% of the time)](#core-operators-youll-use-these-90-of-the-time)  
   * [Kubernetes-flavored examples](#kubernetes-flavored-examples)  
 * [Practice locally first (single file)](#practice-locally-first-single-file)  
-
   * [Basics (why start from `$`?)](#basics-why-start-from-)  
   * [Containers (arrays & wildcards)](#containers-arrays--wildcards)  
   * [Indexing & filtering](#indexing--filtering)  
