@@ -12,15 +12,13 @@ If this **repository** helps you, give it a ⭐ to show your support and help ot
 
 ## Table of Contents
 
-* [Introduction](#introduction)
-* [Prerequisites](#prerequisites)
-
+* [Introduction](#introduction)  
+* [Prerequisites](#prerequisites)  
 * [Behind the Scenes of kubectl get pods (Why It Matters for JSONPath)](#behind-the-scenes-of-kubectl-get-pods-why-it-matters-for-jsonpath)  
-  * [Why this matters before we start JSONPath](#why-this-matters-before-we-start-jsonpath)
-  * [YAML ↔ JSON in Kubernetes](#yaml--json-in-kubernetes)
+  * [Why this matters before we start JSONPath](#why-this-matters-before-we-start-jsonpath)  
+  * [YAML ↔ JSON in Kubernetes](#yaml--json-in-kubernetes)  
 * [Why JSONPath?](#why-jsonpath)  
 * [What is JSONPath?](#what-is-jsonpath)  
-
   * [Core operators (you’ll use these 90% of the time)](#core-operators-youll-use-these-90-of-the-time)  
   * [Kubernetes-flavored examples](#kubernetes-flavored-examples)  
 * [Practice locally first (single file)](#practice-locally-first-single-file)  
