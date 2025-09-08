@@ -2,6 +2,7 @@
 
 ## Video reference for Day 59 is the following:
 
+[![Watch the video](https://img.youtube.com/vi/IAZqe4QVt54/maxresdefault.jpg)](https://www.youtube.com/watch?v=IAZqe4QVt54&ab_channel=CloudWithVarJosh)
 
 
 ---
@@ -65,9 +66,9 @@ To get the most out of this lecture, be comfortable with **YAML**—it’s the f
 
 ## Behind the Scenes of kubectl get pods (Why It Matters for JSONPath)
 
-**From the moment **Shwetangi runs `kubectl get pods`** — what happens**
+![Alt text](/images/59a.png)
 
-Great call—let’s make it precise (and slide-friendly):
+**From the moment **Shwetangi runs `kubectl get pods`** — what happens**
 
 1. **kubectl builds the request**
     * **Reads kubeconfig** (cluster URL, CA, credentials), opens **HTTPS** to the API server.
