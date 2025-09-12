@@ -1,3 +1,5 @@
+![CKA: Certified Kubernetes Administrator Course 2025](https://img.shields.io/badge/CKA-Certification_Course_2025-blue?style=for-the-badge&logo=kubernetes&logoColor=white)
+
 # Certified Kubernetes Administrator Certification Course 2025: Learn Docker and Kubernetes Step-by-Step
 
 Welcome to the official GitHub repository for the CKA Certification Course 2025!
