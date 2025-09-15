@@ -113,6 +113,9 @@ Kubernetes operates on a master-worker architecture, where:
         * **From Python Frontend to Redis Pod:** CNI ensures that the traffic routed by kube-proxy can traverse the cluster’s network infrastructure correctly to reach the selected Redis Pod.
         * **Pod-to-Pod Communication:** The CNI plugin implements the network routes and rules that enable communication between Pods across different nodes.
 
+CNI main functions:
+1) Assigns IP addresses to pods 2) Creates n/w interfaces for pods 3) IPAM (IP Address Management) 4) Network Policy Enforcement 5) pod to pod networking
+
 4. **Redis Pod Response:**
     * The selected Redis Pod processes the request and sends the response directly back to the originating Python frontend Pod.
     * **Direct Return:** Kubernetes networking ensures the return traffic takes the reverse path directly, avoiding kube-proxy, because the connection has already been established.
@@ -126,6 +129,7 @@ Kubernetes operates on a master-worker architecture, where:
 * **CNI (Container Network Interface):**
     * Provides the fundamental networking infrastructure, including IP address assignment, routing, and connectivity for all Pods in the cluster.
     * Ensures traffic between Pods on the same or different nodes is routed correctly through the cluster network.
+    * A CNI (Container Network Interface) plugin is a standardized framework that manages network connectivity for pods, enabling communication between them and external networks by configuring their network interfaces and handling IP address allocation.
 
 * **kube-proxy:**
     * Acts as a traffic director for requests made to Services.
