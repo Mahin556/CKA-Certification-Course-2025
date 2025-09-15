@@ -92,6 +92,11 @@ While both `CMD` and `ENTRYPOINT` define what commands should run in a container
 - **Restart a container**: `docker restart <container_id>`
 - **Delete a specific container**: `docker rm <container_id>`
 - **Delete all stopped containers**: `docker container prune`
+- **Delete all image**: `docker image prune`
+- `docker run --entrypoint ls demo-image -l`
+- `docker run demo-image ping -c 4 google.com`
+- `docker run demo-image google.com`
+- `docker run --entrypoint "ping -c 4" demo-image google.com`
 
 ### **Image Management**
 - **Dangling images**: Images that are no longer tagged or associated with any container.
