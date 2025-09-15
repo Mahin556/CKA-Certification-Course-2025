@@ -42,6 +42,13 @@ nodes:
   - role: worker
     image: kindest/node:v1.31.4@sha256:2cb39f7295fe7eafee0842b1052a599a4fb0f8bcf3f83d96c7f4864c357c6c30
 ```
+
+We executed the command from the CLI to create Kubernetes clusters using "kind" in both scenarios. The key differences are:
+- First Scenario (my-first-cluster): We used a configuration file to define the cluster setup, such as the image version and the number of nodes.
+- Second Scenario (my-second-cluster): Instead of using a configuration file, we simply ran the command, which defaulted to the latest image. Alternatively, we could have specified a custom image by using the --image flag.
+  
+|-|varunjoshi@Varuns-KacBook-Pro]-[~/courses/CKA-Certification-Course-2025/Day 8]
+
   A **configuration file** was used to define the cluster setup, including:
   - **Image Version** 
   - **Number of Nodes**
