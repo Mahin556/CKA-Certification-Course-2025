@@ -38,6 +38,7 @@ Kubernetes operates on a master-worker architecture, where:
 ### Control Plane
 - **Role**: This is the brain of the cluster, responsible for managing and orchestrating all the worker nodes.
 - **Description**: It's a set of core components that run on a separate set of machines.
+- AWS provide a region level redundency( 2 api server, 3 etcd database within 3 AZs in a single region)
 
 ### Worker Nodes
 - **Role**: These are the machines where your applications actually run.
