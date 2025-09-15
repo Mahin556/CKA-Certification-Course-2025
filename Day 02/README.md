@@ -145,6 +145,7 @@ docker ps -a
 
 #### Others
 ![Tags](/images/image.png)
+![Tags](/images/image(3).png)
 ![Config.json](/images/image(1).png)
 ![docker login](/images/image(2).png)
 
