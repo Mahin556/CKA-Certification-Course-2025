@@ -100,6 +100,7 @@ CMD ["python", "app.py"]
 | **Common Use Case**      | When you need shell features, like piping or chaining commands. | When you want the command to run directly and efficiently. |
 | **Examples**             | `CMD echo "Hello World"`                           | `CMD ["echo", "Hello World"]`                      |
 
+we can check it using the docker top command
 ---
 ### **Conclusion**
 
