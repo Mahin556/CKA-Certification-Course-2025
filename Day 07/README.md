@@ -102,6 +102,10 @@ Kubernetes operates on a master-worker architecture, where:
         * **Load Balancing:** It selects a Redis Pod based on the load balancing strategy defined for the Service (e.g., round-robin or IPVS-based algorithms).
         * **Health Checks:** Ensures that the Redis Pod selected for routing is healthy and available to handle requests.
     * **Traffic Redirection:** kube-proxy redirects the traffic from the Python frontend Pod to the chosen Redis Pod by modifying the packet’s destination IP and port.
+  
+    * When the Python frontend sends a request to the redis-service, CoreDNS translates the redis-service) to the corresponding IP assigned to it when the service was created. I didn't mention this in the video to avoid overcomplicating things. We'll dive deeper into this when we cover Kubernetes Services.] CoreDNS is a DNS server in Kubernetes that resolves service names to IP addresses, enabling] communication between pods and services.)
+    * Pods are ephemeral resources, meaning they are temporary and are dynamically created, destroyed, or replaced based on factors such as application demand, health checks, and scaling requirements.We will explore this concept in greater detail when discussing auto-scaling.
+    * The responce is direclt return to the pod not through the service
 
 3. **CNI’s Role:**
     * **Network Setup:** CNI ensures that all Pods, including the Python frontend and Redis Pods, are assigned unique IP addresses within the cluster and can communicate seamlessly.
