@@ -143,6 +143,12 @@ docker ps -a
 
 ---
 
+#### Others
+![Tags](/images/image.png)
+![Config.json](/images/image(1).png)
+![docker login](/images/image(2).png)
+
+
 ### **Final Notes**
 These basic Docker commands lay the foundation for building, tagging, pushing, and running containerized applications. Experiment with them to gain hands-on experience and better understand how containers and images work together.
 
