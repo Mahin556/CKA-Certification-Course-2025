@@ -332,6 +332,7 @@ Annotations in Kubernetes are key-value pairs used to attach arbitrary metadata 
   - Links to external resources  
   - Operational notes or logs
 
+- When you imperatively set a new image for a pod managed by a Replication Controller (rc), the rc does not perform a rolling update. RC does not replace existing pods immediately; only newly created pods get the updated image. Same with replicasets(rs) when used WITHOUT Deployment.
 
 We'll demonstrate rolling updates and rollbacks in a Kubernetes Deployment using the following steps:
 
