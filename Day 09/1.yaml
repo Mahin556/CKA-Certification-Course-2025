@@ -1,0 +1,34 @@
+company: xyz
+employees:
+  - name: mahin
+    age: 22
+    role: Devops Engineer
+    contact:
+      phone: 1234567890
+      email: mahin@xyz.com
+  - name: arif
+    age: 25
+    role: Software Engineer
+    contact:
+      phone: 0987654321
+      email: arif@xyz.com
+---
+company: abc
+info:
+  - departments: 
+      - name: HR
+        employees: 
+          - name: rahim
+            age: 30
+            role: Manager
+            contact:
+            phone: 1112223333
+            email: rahim@abc.com
+          - name: IT
+            employees:
+              - name: karim
+                age: 28
+                role: Developer
+                contact:
+                  phone: 2223334444
+                  email: karim@abc.com
